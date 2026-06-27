@@ -1,0 +1,62 @@
+.base {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  width: 600px;
+  height: 600px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.layer2 {
+  display: flex;
+}
+
+.flag-stand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag-pole {
+  width: 15px;
+  height: 500px;
+  background-color: rgb(0, 70, 0);
+}
+
+.pole-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.pole-foot {
+  width: 60px;
+  height: 30px;
+  background-color: brown;
+  margin-left: -23px;
+}
+
+.flag-rectangle {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-circle {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 50px;
+}

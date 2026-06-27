@@ -23,7 +23,7 @@ a {
 .container {
   display: flex;
   align-items: center;
-  max-width: 70%;
+  max-width: 90%;
   height: 100%;
   margin: 0 auto;
 }
@@ -34,10 +34,11 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 8px;
 }
 
 .exhibit {
-  margin: 8px;
+  padding: 8px;
   box-shadow: 0 0 8px #cfcfcf;
   border-radius: 4px;
 }
@@ -49,7 +50,6 @@ a {
 
 .exhibit__caption {
   display: flex;
-  padding: 8px;
   justify-content: space-between;
   align-items: center;
 }
@@ -57,6 +57,6 @@ a {
 .exhibit a {
   background-color: #63a2f7;
   color: #efefef;
-  padding: 8px 16px;
+  padding: 4px 8px;
   border-radius: 4px;
 }
