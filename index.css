@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efefef;
+}
+
+header {
+  height: 60px;
+  background-color: #333333;
+  color: #efefef;
+}
+
+.base-container {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
