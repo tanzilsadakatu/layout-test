@@ -1,0 +1,52 @@
+.triangle-layout {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.triangle1 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 100px solid red;
+}
+
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+}
+
+.triangle-set2 {
+  display: flex;
+  position: relative;
+  left: -100px;
+}
+
+.triangle3 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid green;
+  border-left: 100px solid transparent;
+}
+
+.triangle4 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid green;
+  border-right: 100px solid transparent;
+}
+
+.triangle-set3 {
+  display: flex;
+  position: relative;
+  left: -300px;
+}
+
+.triangle5 {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid blue;
+  border-left: 200px solid transparent;
+}
