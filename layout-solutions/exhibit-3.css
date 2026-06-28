@@ -54,19 +54,3 @@
 .box--4 {
   grid-area: box4;
 }
-
-.color-red {
-  background-color: red;
-}
-
-.color-green {
-  background-color: green;
-}
-
-.color-blue {
-  background-color: blue;
-}
-
-.color-brown {
-  background-color: brown;
-}

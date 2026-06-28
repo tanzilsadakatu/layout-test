@@ -66,3 +66,19 @@ a {
   padding: 4px 8px;
   border-radius: 4px;
 }
+
+.color-red {
+  background-color: red;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-brown {
+  background-color: brown;
+}
