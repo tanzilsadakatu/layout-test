@@ -43,6 +43,12 @@ a {
   border-radius: 4px;
 }
 
+.exhibit__figure {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .exhibit__image {
   width: 256px;
   border-radius: 4px;
@@ -54,7 +60,7 @@ a {
   align-items: center;
 }
 
-.exhibit a {
+.exhibit__link {
   background-color: #63a2f7;
   color: #efefef;
   padding: 4px 8px;
