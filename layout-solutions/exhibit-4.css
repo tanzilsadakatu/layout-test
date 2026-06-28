@@ -1,0 +1,27 @@
+.tile-layout {
+  width: 500px;
+  height: 150px;
+  border: 1px solid;
+}
+
+.box {
+  border: 1px solid;
+  flex: 1;
+  height: 50px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+}
+
+.left,
+.right {
+  display: flex;
+  flex: 1;
+}
+
+.row-1 .left .box:nth-child(2) {
+  flex: 2;
+}
